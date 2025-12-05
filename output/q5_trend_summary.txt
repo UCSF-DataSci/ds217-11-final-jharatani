@@ -1,0 +1,17 @@
+KEY PATTERNS IDENTIFIED 
+ ============== 
+
+TEMPORAL TRENDS: 
+ - Rainfall and humidity show a seasonal patterns 
+ - More rainfall is seen during expected late summer through early winter months 
+ - Humidity varies throughout the year, but spikes during presumably summer and fall months 
+ - Humidity percentage ranges from 51% to about 80% 
+
+MONTHLY PATTERNS: 
+ - The greatest difference in rainfall monthly is about 14,000 inches 
+ - Humidity drops severly in the end of 2024 
+ - Overall humidity is trending down 
+
+CORRELATIONS: 
+ - Air temp vs Wet Bulb Temp: 0.830 (strong positive correlation) 
+ - Maximum wind speed vs wind speed squared: (moderate positive correlation) 
