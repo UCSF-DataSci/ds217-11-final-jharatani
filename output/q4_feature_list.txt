@@ -1,0 +1,5 @@
+air_temp_diff_1h 
+humidity_temp_ratio 
+wind_speed_squared 
+humidity_rolling_24h 
+solar_rolling_24h 
