@@ -1,0 +1,33 @@
+===Dataset Information ===
+Dataset Shape: 196,321 rows × 18 columns
+Dataset Column Names, Types: 
+                               dtype
+Station Name                  object
+Measurement Timestamp         object
+Air Temperature              float64
+Wet Bulb Temperature         float64
+Humidity                       int64
+Rain Intensity               float64
+Interval Rain                float64
+Total Rain                   float64
+Precipitation Type           float64
+Wind Direction                 int64
+Wind Speed                   float64
+Maximum Wind Speed           float64
+Barometric Pressure          float64
+Solar Radiation                int64
+Heading                      float64
+Battery Life                 float64
+Measurement Timestamp Label   object
+Measurement ID                object
+
+Date Range of Dataset: 2015-04-25 09:00:00 to 2025-12-03 14:00:00 
+
+Missing Data:                       Missing Count  Missing %
+Wet Bulb Temperature          75951      38.69
+Rain Intensity                75951      38.69
+Total Rain                    75951      38.69
+Heading                       75951      38.69
+Precipitation Type            75951      38.69
+Barometric Pressure             146       0.07
+Air Temperature                  75       0.04 
