@@ -32,24 +32,21 @@ Missing Data Handling:
 
 Outlier Handling:
 Detection method: Percentile-based thresholds (0.1-99.9th percentiles)
-Columns with outliers: Air Temperature, Wet Bulb Temperature, Humidity, Rain Intensity, Interval Rain, Total Rain, Precipitation Type, Wind Direction, Wind Speed, Maximum Wind Speed, Barometric Pressure, Solar Radiation, Heading, Battery Life
+Columns with outliers: Air Temperature, Wet Bulb Temperature, Humidity, Rain Intensity, Interval Rain, Total Rain, Wind Speed, Maximum Wind Speed, Barometric Pressure, Solar Radiation, Battery Life
 Method used: Removed entire rows containing outliers
-Number of outliers handled (rows removed): 108780
+Number of outliers handled (rows removed): 2350
 
-- Air Temperature: 19516 outliers detected 
-- Wet Bulb Temperature: 19264 outliers detected 
-- Humidity: 16971 outliers detected 
-- Rain Intensity: 6621 outliers detected 
-- Interval Rain: 9795 outliers detected 
-- Total Rain: 19182 outliers detected 
-- Precipitation Type: 1288 outliers detected 
-- Wind Direction: 9736 outliers detected 
-- Wind Speed: 17497 outliers detected 
-- Maximum Wind Speed: 9423 outliers detected 
-- Barometric Pressure: 19127 outliers detected 
-- Solar Radiation: 15540 outliers detected 
-- Heading: 14313 outliers detected 
-- Battery Life: 2514 outliers detected 
+- Air Temperature: 377 outliers detected 
+- Wet Bulb Temperature: 387 outliers detected 
+- Humidity: 185 outliers detected 
+- Rain Intensity: 197 outliers detected 
+- Interval Rain: 198 outliers detected 
+- Total Rain: 126 outliers detected 
+- Wind Speed: 191 outliers detected 
+- Maximum Wind Speed: 193 outliers detected 
+- Barometric Pressure: 367 outliers detected 
+- Solar Radiation: 223 outliers detected 
+- Battery Life: 275 outliers detected 
  Duplicates removed: 0 
 Measurement Timestamp: Converted to datetime64[ns]
 Rows after cleaning: 193971 
