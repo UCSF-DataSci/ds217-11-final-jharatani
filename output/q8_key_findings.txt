@@ -1,0 +1,33 @@
+
+KEY FINDINGS SUMMARY
+====================
+
+MODEL PERFORMANCE:
+- Best performing model: XGBoost
+  • Reason: Highest R² on test data (R² = 0.9154)
+  • Lowest prediction error among all models (RMSE = 2.9111 °C)
+- Linear Regression performance:
+  • Showed significant overfitting (Train R² >> Test R²)
+  • Unable to capture nonlinear relationships in weather data
+- Overall: Tree-based boosting captured nonlinear and interaction effects better than linear models.
+
+FEATURE IMPORTANCE:
+- Most important feature: Wet Bulb Temperature (importance: 0.8095)
+- Top 3 features account for 95.09% of total importance.
+- Temporal features (hour, month, rolling averages) contributed strongly.
+- Derived features improved predictive power for temperature modeling.
+
+TEMPORAL PATTERNS:
+- Strong daily temperature cycle (higher midday, lower nighttime).
+- Seasonal variation across months clearly observed.
+- Rolling 24-hour averages revealed smoother long-term trends.
+
+DATA QUALITY:
+- Dataset cleaned: 196,321 → 193,971 rows
+- Missing values handled via forward-fill/backfill
+- Outliers identified using quantiles and removed/capped accordingly
+- Final dataset contains no NaN values in training or test splits.
+
+OVERALL INSIGHT:
+- Weather sensor data is highly predictive of air temperature.
+- XGBoost effectively captures nonlinear and temporal dependencies.
