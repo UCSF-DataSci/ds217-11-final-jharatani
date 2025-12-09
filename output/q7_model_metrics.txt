@@ -2,14 +2,14 @@ MODEL PERFORMANCE METRICS
 ========================= 
 
 LINEAR REGRESSION: 
-  - Train R²: 0.66  
-  - Test R²: 0.89 
-  - Train RMSE: 6.04 
-  - Test RMSE: 3.26 
+  - Train R²: 0.78  
+  - Test R²: 0.92 
+  - Train RMSE: 4.96 
+  - Test RMSE: 2.92 
 
 XGBOOST: 
-  - Train R²: 0.79  
+  - Train R²: 0.82  
   - Test R²: 0.92 
-  - Train RMSE: 4.77 
-  - Test RMSE: 2.91 
+  - Train RMSE: 4.50 
+  - Test RMSE: 2.82 
 
