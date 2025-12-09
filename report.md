@@ -298,8 +298,8 @@ Top features by importance:
 
 The Wet Bulb Temperatre feature dominates feature importance, accounting for 80.94% of total importance. This makes intuitive sense - something directly affected by air temperature strongest predictor of air temperature. Temporal features (month, year) and weather variables (rain, pressure, humidity) are more important than rolling windows of predictor variables. The top 3 features account for 95.08% of total importance.
 
-![Figure 3: Model Performance](output/q8_final_visualizations.png)
-*Figure 3: Final visualizations showing model performance comparison, predictions vs actual values, feature importance, and residuals plot for the best-performing XGBoost model.*
+![Figure 7: Model Performance](output/q8_final_visualizations.png)
+*Figure 7: Final visualizations showing model performance comparison, predictions vs actual values, feature importance, and residuals plot for the best-performing XGBoost model.*
 
 ### Phase 9: Results
 
@@ -325,8 +325,8 @@ The residuals plot shows relatively uniform distribution around zero, suggesting
 ![Figure 3-6: Pattern Analysis](output/q8_temporal_patterns.png)
 *Figure 3-6: Basic pattern analysis revealing daily/hourly temporal trends, monthly/yearly patterns, daily cycles, and daily rain patterns.*
 
-![Figure 5: Model Performance](output/q8_final_visualizations.png)
-*Figure 5: Final results showing model comparison, prediction accuracy, feature importance, and residual analysis.*
+![Figure 7: Model Performance](output/q8_final_visualizations.png)
+*Figure 7: Final results showing model comparison, prediction accuracy, feature importance, and residual analysis.*
 
 ## Model Results
 
